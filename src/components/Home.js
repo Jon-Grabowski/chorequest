@@ -8,7 +8,11 @@ function handleClick(){
     history.push("/adventurebegin")
    } 
     return (
-        <button onClick={handleClick}>Begin Adventure!</button>
+        <div>
+            <h1>Welcome to ChoreQuest!</h1>
+            <p>Game Description</p>
+            <button onClick={handleClick}>Begin Adventure!</button>
+        </div>
     )
 }
 

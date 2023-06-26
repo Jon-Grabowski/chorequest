@@ -61,7 +61,7 @@ function App() {
         <Route path="/laundclothes1">
           <LaundClothesWin />
         </Route>
-        <Route path="laundclothes2">
+        <Route path="/laundclothes2">
           <LaundClothesLose />
         </Route>
         {/* Grandma Path */}

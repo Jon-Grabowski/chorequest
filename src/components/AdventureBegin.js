@@ -9,7 +9,8 @@ function AdventureBegin() {
     
     return (
         <div className="story-page">
-            <img></img>
+            <h1>Beginning of Adventure</h1>
+            <img src="placeholder"></img>
             <p>Story Content Goes Here</p>
             <br></br>
             <button onClick={()=>handleClick("/laundromat")}>Go to Laundromat</button>
