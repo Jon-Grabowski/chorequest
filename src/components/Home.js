@@ -1,6 +1,14 @@
+import {useHistory} from "react-router-dom"
+
 function Home() {
+
+let history = useHistory()
+
+function handleClick(){
+    history.push("/adventurebegin")
+   } 
     return (
-        <h1>Home</h1>
+        <button onClick={handleClick}>Begin Adventure!</button>
     )
 }
 
