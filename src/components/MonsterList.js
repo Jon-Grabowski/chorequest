@@ -19,7 +19,7 @@ function MonsterList({monsters}) {
     return (
         <div>
             <h1>List of Monsters Here</h1>
-            <Card.Group itemsPerRow={6}>
+            <Card.Group itemsPerRow={4}>
                 {eachMonster}
             </Card.Group>
         </div>
