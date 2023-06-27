@@ -11,7 +11,10 @@ function GranToiletLose() {
         <div className="story-page">
             <h1>That Didn't Work!</h1>
             <img src="placeholder"></img>
-            <p>Try again to fix it!</p>
+            <p>
+                Unfortunately, the tools you picked were not the right ones to fix the broken toilet! 
+                As you attempt to use them, you realize they are ill-suited for the job. 
+                The situation calls for a different approach, requiring a careful reassessment of the available tools.</p>
             <br></br>
             <button onClick={()=>handleClick("/rightpath")}>Pick Different Tools</button>
 

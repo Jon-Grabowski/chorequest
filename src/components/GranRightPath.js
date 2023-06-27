@@ -26,7 +26,13 @@ function GranRightPath() {
         <div className="story-page">
             <h1>You Made it to Grandma's House</h1>
             <img src="placeholder"></img>
-            <p>Help Grandma fix her toilet. Pick the correct set of tools to fix it.</p>
+            <p>
+                After a while, the dense foliage begins to clear, revealing a quaint cottage nestled amidst a 
+                picturesque meadow. You've stumbled upon your grandma's hidden abode. Determined to be of assistance, 
+                you scan the room for the necessary tools to fix the toilet. Several items catch your eye, 
+                each potentially useful in resolving the plumbing issue. Choose wisely to ensure success.
+                </p>
+                <p>Which tools with you use?</p>
             <br></br>
 
             <form onSubmit={handleSubmit}>
