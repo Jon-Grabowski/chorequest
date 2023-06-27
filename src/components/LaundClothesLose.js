@@ -35,9 +35,10 @@ function TooManySuds(){
     )
 }
 
-function LaundClothesLose() {
+function LaundClothesLose({selection}) {
+    console.log(selection)
     return (
-        (false ? <TooLittleSuds/> : <TooManySuds />)
+        (selection === "barely" ? <TooLittleSuds/> : <TooManySuds />)
     )
 }
 
