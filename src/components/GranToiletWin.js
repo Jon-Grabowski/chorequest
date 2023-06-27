@@ -1,6 +1,6 @@
 import { useHistory } from "react-router-dom"
 
-function LaundClothesWin() {
+function GranToiletWin() {
     const history = useHistory()
 
     function handleClick(path) {
@@ -9,14 +9,14 @@ function LaundClothesWin() {
     
     return (
         <div className="story-page">
-            <h1>Correct Detergent Amount</h1>
+            <h1>You Fixed the Toilet!</h1>
             <img src="placeholder"></img>
-            <p>Clothes are washed, time to go home and relax!</p>
+            <p>Now you can go home and finally relax!</p>
             <br></br>
-            <button onClick={()=>handleClick("/")}>Back Home</button>
+            <button onClick={()=>handleClick("/")}>Go Home</button>
 
         </div>
     )
 }
 
-export default LaundClothesWin
+export default GranToiletWin

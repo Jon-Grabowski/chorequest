@@ -12,8 +12,17 @@ import LaundMachineWin from "./components/LaundMachineWin.js";
 import LaundMachineLose from "./components/LaundMachineLose.js";
 import LaundClothesWin from "./components/LaundClothesWin.js";
 import LaundClothesLose from "./components/LaundClothesLose.js";
+import Grandma from "./components/Grandma.js";
+import GranLeftPath from "./components/GranLeftPath.js";
+import GranRightPath from "./components/GranRightPath.js";
+import GranMonsterWin from "./components/GranMonsterWin.js";
+import GranMonsterLose from "./components/GranMonsterLose.js";
+import GranToiletWin from "./components/GranToiletWin.js";
+import GranToiletLose from "./components/GranToiletLose.js";
+
 
 import './App.css';
+
 
 function App() {
   const [sudsAmount, setSudsAmount] = useState(0)
@@ -46,7 +55,8 @@ console.log(monsters)
         <Route path="/adventurebegin">
           <AdventureBegin />
         </Route>
-        <Route path="/laundromat">
+        {/* Laundromat Path */}
+        <Route exact path="/laundromat">
           <Laundromat />
         </Route>
         <Route path="/laundromatmachine">
@@ -64,8 +74,30 @@ console.log(monsters)
         <Route path="/laundclothes1">
           <LaundClothesWin />
         </Route>
-        <Route path="laundclothes2">
+        <Route path="/laundclothes2">
           <LaundClothesLose />
+        </Route>
+        {/* Grandma Path */}
+        <Route exact path="/grandma">
+          <Grandma />
+        </Route>
+        <Route path="/leftpath">
+          <GranLeftPath />
+        </Route>
+        <Route path="/rightpath">
+          <GranRightPath/>
+        </Route>
+        <Route path="/leftpath1">
+          <GranMonsterWin />
+        </Route>
+        <Route path="/leftpath2">
+          <GranMonsterLose />
+        </Route>
+        <Route path="/rightpath1">
+          <GranToiletWin />
+        </Route>
+        <Route path="/rightpath2">
+          <GranToiletLose />
         </Route>
       </Switch>
     </div>
