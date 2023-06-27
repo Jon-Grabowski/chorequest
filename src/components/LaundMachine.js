@@ -27,13 +27,13 @@ function LaundMachine() {
                     <legend>Choose Your Answer</legend>
                     <div>
                         <input type="radio" id="riddle-answer-1" name="riddle" value="wrong"></input>
-                        <label for="riddle-answer-1">Wrong Answer 1</label>
+                        <label htmlFor="riddle-answer-1">Wrong Answer 1</label>
                         <input type="radio" id="riddle-answer-2" name="riddle" value="wrong"></input>
-                        <label for="riddle-answer-1">Wrong Answer 2</label>
+                        <label htmlFor="riddle-answer-1">Wrong Answer 2</label>
                         <input type="radio" id="riddle-answer-3" name="riddle" value="wrong"></input>
-                        <label for="riddle-answer-1">Wrong Answer 3</label>
+                        <label htmlFor="riddle-answer-1">Wrong Answer 3</label>
                         <input type="radio" id="riddle-answer-4" name="riddle" value="correct"></input>
-                        <label for="riddle-answer-1">Correct Answer</label>
+                        <label htmlFor="riddle-answer-1">Correct Answer</label>
                     </div>
                     <div>
                         <button type="submit">Submit Answer</button>

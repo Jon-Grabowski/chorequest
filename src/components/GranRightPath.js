@@ -34,13 +34,13 @@ function GranRightPath() {
                     <legend>Choose Your Answer</legend>
                     <div id="tool-select">
                         <input type="checkbox" id="tool-answer-1" name="toolbox" value="correct1"></input>
-                        <label for="tool-answer-1"><img src={plungerImg}/></label>
+                        <label htmlFor="tool-answer-1"><img src={plungerImg}/></label>
                         <input type="checkbox" id="tool-answer-2" name="toolbox" value="wrong1"></input>
-                        <label for="tool-answer-2"><img src={hammerImg}/></label>
+                        <label htmlFor="tool-answer-2"><img src={hammerImg}/></label>
                         <input type="checkbox" id="tool-answer-3" name="toolbox" value="correct2"></input>
-                        <label for="tool-answer-3"><img src={wrenchImg}/></label>
+                        <label htmlFor="tool-answer-3"><img src={wrenchImg}/></label>
                         <input type="checkbox" id="tool-answer-4" name="toolbox" value="wrong2"></input>
-                        <label for="tool-answer-4"><img src={sawImg}/></label>
+                        <label htmlFor="tool-answer-4"><img src={sawImg}/></label>
                     </div>
                     <div>
                         <button type="submit">Start Fixing!</button>
