@@ -32,7 +32,7 @@ function LaundMachine() {
                         <label for="riddle-answer-1">Wrong Answer 2</label>
                         <input type="radio" id="riddle-answer-3" name="riddle" value="wrong"></input>
                         <label for="riddle-answer-1">Wrong Answer 3</label>
-                        <input type="radio" id="riddle-answer-1" name="riddle" value="correct"></input>
+                        <input type="radio" id="riddle-answer-4" name="riddle" value="correct"></input>
                         <label for="riddle-answer-1">Correct Answer</label>
                     </div>
                     <div>
