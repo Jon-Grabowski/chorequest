@@ -25,7 +25,7 @@ import './App.css';
 
 
 function App() {
-  const [sudsAmount, setSudsAmount] = useState(0)
+  const [selection, setSelection] = useState('Choose Detergent!')
   const [monsters, setMonsters] = useState([])
   const [granLeftPathRandomMonster, setGranLeftPathRandomMonster] = useState({});
 
@@ -63,7 +63,7 @@ useEffect(() => {
           <LaundMachine />
         </Route>
         <Route path="/laundromatclothes">
-          <LaundClothes setSudsAmount = {setSudsAmount}/>
+          <LaundClothes selection={selection} setSelection={setSelection}/>
         </Route>
         <Route path="/laundmachine1">
           <LaundMachineWin/>
@@ -75,7 +75,7 @@ useEffect(() => {
           <LaundClothesWin />
         </Route>
         <Route path="/laundclothes2">
-          <LaundClothesLose />
+          <LaundClothesLose selection={selection}/>
         </Route>
         {/* Grandma Path */}
         <Route exact path="/grandma">
