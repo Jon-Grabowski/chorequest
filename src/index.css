@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.new-monster-form {
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+  background-color: rgba(57, 9, 3, 0.856);
+}
+
+.new-monster-form form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column
+}
+
+.new-monster-form input {
+  margin-right: 2rem;
+  flex: 1;
+  width: 500px;
+}
+.new-monster-form button {
+  width: 150px;
+}

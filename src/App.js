@@ -1,5 +1,5 @@
 import {Route, Switch, NavLink, Link } from "react-router-dom";
-import {useState} from "react"
+import {useState, useEffect} from "react"
 import  NavBar  from "./components/NavBar.js"
 import Home from "./components/Home";
 import MonsterList from "./components/MonsterList.js";
@@ -26,6 +26,19 @@ import './App.css';
 
 function App() {
   const [sudsAmount, setSudsAmount] = useState(0)
+  const [monsters, setMonsters] = useState([])
+
+function addNewMonster(newMonster){
+  setMonsters((prevMonsters) => [...prevMonsters, newMonster])
+}
+
+useEffect(() => {
+  fetch("http://localhost:3001/monsters")
+  .then(r => r.json())
+  .then(data => setMonsters(data))
+}, [])
+
+console.log(monsters)
   return (
     <div className="App">
       <NavBar />
@@ -34,7 +47,7 @@ function App() {
           <Home />
         </Route>
         <Route path="/addmonster">
-          <AddMonster />
+          <AddMonster addNewMonster={addNewMonster}/>
         </Route>
         <Route path="/monsterlist">
           <MonsterList />
