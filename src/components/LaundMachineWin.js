@@ -9,11 +9,11 @@ function LaundMachineWin() {
     
     return (
         <div className="story-page">
-            <h1>Landromat Win Page</h1>
+            <h1>Correct Riddle Answer</h1>
             <img src="placeholder"></img>
-            <p>Story Content Goes Here</p>
+            <p>You solved the riddle! Now the monster will finish washing your clothes while you go back home to relax.</p>
             <br></br>
-            <button onClick={()=>handleClick("/")}>Go Back Home</button>
+            <button onClick={()=>handleClick("/")}>Go Home</button>
 
         </div>
     )

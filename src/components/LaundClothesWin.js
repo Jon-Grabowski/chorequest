@@ -9,9 +9,9 @@ function LaundClothesWin() {
     
     return (
         <div className="story-page">
-            <h1>Clothes are washed, time to go home and relax!</h1>
+            <h1>Correct Detergent Amount</h1>
             <img src="placeholder"></img>
-            <p>Story Content Goes Here</p>
+            <p>Clothes are washed, time to go home and relax!</p>
             <br></br>
             <button onClick={()=>handleClick("/")}>Back Home</button>
 

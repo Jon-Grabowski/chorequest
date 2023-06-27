@@ -83,7 +83,7 @@ function App() {
         <Route path="/rightpath1">
           <GranToiletWin />
         </Route>
-        <Route path="rightpath2">
+        <Route path="/rightpath2">
           <GranToiletLose />
         </Route>
       </Switch>

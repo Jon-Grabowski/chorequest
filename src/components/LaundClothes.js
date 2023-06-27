@@ -11,10 +11,10 @@ function LaundClothes({setSudsAmount}) {
         <div className="story-page">
             <h1>Decide How Much Detergent to Use</h1>
             <img src="placeholder"></img>
-            <p>Story Content Goes Here</p>
+            <p>You put your laundry in the machine and grab the detergent. How much will you use?</p>
             <br></br>
-            <button onClick={()=>handleClick("/laundclothes1")}>Win</button>
-            <button onClick={()=>handleClick("/laundclothes2")}>Lose</button>
+            <button onClick={()=>handleClick("/laundclothes1")}>Right Amount</button>
+            <button onClick={()=>handleClick("/laundclothes2")}>Wrong Amount</button>
 
         </div>
     )
