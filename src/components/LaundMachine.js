@@ -1,6 +1,6 @@
 import { useHistory } from "react-router-dom"
 
-function LaundMachine() {
+function LaundMachine({monsters}) {
     const history = useHistory()
 
     function handleClick(path) {
@@ -15,12 +15,18 @@ function LaundMachine() {
             handleClick("/laundmachine2")
         }
     }
+
+    const totalMonsters = monsters.length;
+    const randomIndex = Math.floor(Math.random() * (totalMonsters + 1));
+    const randomMonster = monsters[randomIndex];
+    console.log(randomIndex);
     
     return (
         <div className="story-page">
             <h1>Inside Laundry Machine</h1>
-            <img src="placeholder"></img>
-            <p>Go through portal and encounter a monster. Monster asks you a riddle.</p>
+            <img src={randomMonster.image}></img>
+            <h2>{randomMonster.name} has a riddle for you!</h2>
+            <p>--- Riddle placeholder ---</p>
             <br></br>
             <form onSubmit={handleSubmit}>
                 <fieldset>
