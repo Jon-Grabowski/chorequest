@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Dust Biter",
-      "image": "https://d32ogoqmya1dw8.cloudfront.net/images/curenet/funding/placeholder.jpg",
+      "image": "https://i.imgur.com/H40Kyu8.jpg",
       "description": "A small, mischievous creature that feeds on dust and causes allergies.",
       "method": "Swiftly strikes with its tiny fangs, leaving a tickling sensation.",
       "height": "",
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "name": "Moldy Muncher",
-      "image": "https://d32ogoqmya1dw8.cloudfront.net/images/curenet/funding/placeholder.jpg",
+      "image": "https://i.imgur.com/CY1uKZx.jpg",
       "description": "A slimy monster that thrives in damp places and feasts on mold.",
       "method": "Engulfs moldy surfaces, dissolving them with its acidic saliva.",
       "height": "",
@@ -21,7 +21,7 @@
     {
       "id": 3,
       "name": "Laundry Lurker",
-      "image": "https://d32ogoqmya1dw8.cloudfront.net/images/curenet/funding/placeholder.jpg",
+      "image": "https://i.imgur.com/DZ224oC.jpg",
       "description": "A sneaky monster that hides in piles of dirty laundry and steals socks.",
       "method": "Snatches socks with lightning speed, leaving behind a mismatched pair.",
       "height": "",
@@ -30,7 +30,7 @@
     {
       "id": 4,
       "name": "Cobweb Crawler",
-      "image": "https://d32ogoqmya1dw8.cloudfront.net/images/curenet/funding/placeholder.jpg",
+      "image": "https://i.imgur.com/M094Exj.jpg",
       "description": "A spider-like creature that weaves sticky webs in corners and loves dark spaces.",
       "method": "Entangles prey in its sticky silk, immobilizing them for consumption.",
       "height": "",
@@ -39,7 +39,7 @@
     {
       "id": 5,
       "name": "Stain Stalker",
-      "image": "https://d32ogoqmya1dw8.cloudfront.net/images/curenet/funding/placeholder.jpg",
+      "image": "https://i.imgur.com/RDgANyj.jpg",
       "description": "A relentless monster that preys on fresh stains and leaves behind smears.",
       "method": "Absorbs stains with its porous skin, leaving behind a trail of smudges.",
       "height": "",
@@ -48,7 +48,7 @@
     {
       "id": 6,
       "name": "Trash Titan",
-      "image": "https://d32ogoqmya1dw8.cloudfront.net/images/curenet/funding/placeholder.jpg",
+      "image": "https://i.imgur.com/EkdOY7U.jpg",
       "description": "A towering creature formed from piles of garbage that leaves a trail of filth.",
       "method": "Crushes and suffocates prey under layers of compacted trash.",
       "height": "",
@@ -57,7 +57,7 @@
     {
       "id": 7,
       "name": "Sweeping Specter",
-      "image": "https://d32ogoqmya1dw8.cloudfront.net/images/curenet/funding/placeholder.jpg",
+      "image": "https://i.imgur.com/YG49izX.jpg",
       "description": "A ghostly apparition that haunts brooms and causes dust clouds to form.",
       "method": "Whirls up dust storms, disorienting and choking its unsuspecting victims.",
       "height": "",
@@ -66,7 +66,7 @@
     {
       "id": 8,
       "name": "Grime Gremlin",
-      "image": "https://d32ogoqmya1dw8.cloudfront.net/images/curenet/funding/placeholder.jpg",
+      "image": "https://i.imgur.com/2hN1czY.jpg",
       "description": "A mischievous imp that revels in dirt and grime, leaving smudges everywhere.",
       "method": "Smears its slimy hands on surfaces, leaving behind a trail of grime.",
       "height": "",
@@ -75,7 +75,7 @@
     {
       "id": 9,
       "name": "Window Wraith",
-      "image": "https://d32ogoqmya1dw8.cloudfront.net/images/curenet/funding/placeholder.jpg",
+      "image": "https://i.imgur.com/u3cmKR7.jpg",
       "description": "A translucent phantom that smears windows and mirrors with its touch.",
       "method": "Leaves oily residue with every touch, clouding the clarity of glass.",
       "height": "",
@@ -84,7 +84,7 @@
     {
       "id": 10,
       "name": "Dishwasher Devourer",
-      "image": "https://d32ogoqmya1dw8.cloudfront.net/images/curenet/funding/placeholder.jpg",
+      "image": "https://i.imgur.com/YQPeZrq.jpg",
       "description": "A voracious creature that consumes dishes and utensils, leaving them dirty.",
       "method": "Swallows dishes whole, regurgitating them covered in a layer of grime.",
       "height": "",
@@ -93,7 +93,7 @@
     {
       "id": 11,
       "name": "Mop Menace",
-      "image": "https://d32ogoqmya1dw8.cloudfront.net/images/curenet/funding/placeholder.jpg",
+      "image": "https://i.imgur.com/SmpvUGp.jpg",
       "description": "A slippery monster that soaks up water, leaving wet footprints behind.",
       "method": "Drenches its surroundings with water, causing slippery hazards.",
       "height": "",
@@ -102,7 +102,7 @@
     {
       "id": 12,
       "name": "Gutter Ghoul",
-      "image": "https://d32ogoqmya1dw8.cloudfront.net/images/curenet/funding/placeholder.jpg",
+      "image": "https://i.imgur.com/2Njhrzl.jpg",
       "description": "A creature lurking in gutters that clogs them with leaves and debris.",
       "method": "Creates blockages by jamming gutters with twigs, leaves, and slime.",
       "height": "",
@@ -110,17 +110,17 @@
     },
     {
       "id": 13,
-      "name": "Duster Demon",
-      "image": "https://d32ogoqmya1dw8.cloudfront.net/images/curenet/funding/placeholder.jpg",
-      "description": "A creature with multiple arms that spreads dust and allergens as it moves.",
-      "method": "Whips up clouds of dust, causing sneezing fits and respiratory distress.",
+      "name": "Soapy Suds",
+      "image": "https://i.imgur.com/55GJi5P.jpg",
+      "description": "A bubbly monster that hides in washing machines, and is awoken by the addition of excess detergent.",
+      "method": "Forms massive bubbles, causing washing machines to overflow and flood.",
       "height": "",
       "weight": ""
     },
     {
       "id": 14,
       "name": "Vacuum Vortex",
-      "image": "https://d32ogoqmya1dw8.cloudfront.net/images/curenet/funding/placeholder.jpg",
+      "image": "https://i.imgur.com/HLvbkdv.jpg",
       "description": "A whirlwind-like monster that devours everything in its path, scattering debris.",
       "method": "Sucks up objects with its powerful suction force, leaving chaos in its wake.",
       "height": "",
@@ -129,7 +129,7 @@
     {
       "id": 15,
       "name": "Pest Pestilence",
-      "image": "https://d32ogoqmya1dw8.cloudfront.net/images/curenet/funding/placeholder.jpg",
+      "image": "https://i.imgur.com/rDDTFtD.jpg",
       "description": "A swarm of tiny creatures that infest homes and cause havoc.",
       "method": "Overwhelms spaces with sheer numbers, devouring food and spreading disease.",
       "height": "",
@@ -138,7 +138,7 @@
     {
       "id": 16,
       "name": "Ironing Imp",
-      "image": "https://d32ogoqmya1dw8.cloudfront.net/images/curenet/funding/placeholder.jpg",
+      "image": "https://i.imgur.com/UR9040U.jpg",
       "description": "A mischievous imp that creases clothes and leaves iron marks behind.",
       "method": "Leaves behind iron marks and wrinkles by dancing across freshly ironed clothes.",
       "height": "",
@@ -147,7 +147,7 @@
     {
       "id": 17,
       "name": "Sponge Siphoner",
-      "image": "https://d32ogoqmya1dw8.cloudfront.net/images/curenet/funding/placeholder.jpg",
+      "image": "https://i.imgur.com/AQwCvzq.jpg",
       "description": "A sponge-like monster that absorbs water and leaves surfaces damp.",
       "method": "Sucks up water from surfaces, leaving them soaked and prone to mildew.",
       "height": "",
@@ -156,7 +156,7 @@
     {
       "id": 18,
       "name": "Lawn Litterbug",
-      "image": "https://d32ogoqmya1dw8.cloudfront.net/images/curenet/funding/placeholder.jpg",
+      "image": "https://i.imgur.com/TpcqCgp.jpg",
       "description": "A creature that scatters trash and debris across lawns and gardens.",
       "method": "Scatters garbage and debris across lawns, creating eyesores and attracting pests.",
       "height": "",
@@ -164,17 +164,17 @@
     },
     {
       "id": 19,
-      "name": "Washing Machine Wraith",
-      "image": "https://d32ogoqmya1dw8.cloudfront.net/images/curenet/funding/placeholder.jpg",
-      "description": "A ghostly presence that causes clothes to tangle and disappear in washing machines.",
-      "method": "Tangles and knots clothes within washing machines, causing frustration and delays.",
+      "name": "Toilet Terror",
+      "image": "https://i.imgur.com/ViY6eGp.jpg",
+      "description": "Emerges from toilets, causing clogs and splashing water on unsuspecting victims.",
+      "method": "Causes toilet clogs and splashes water, creating unpleasant surprises.",
       "height": "",
       "weight": ""
     },
     {
       "id": 20,
       "name": "Shower Slimer",
-      "image": "https://d32ogoqmya1dw8.cloudfront.net/images/curenet/funding/placeholder.jpg",
+      "image": "https://i.imgur.com/4jG7L6k.jpg",
       "description": "A slimy creature that oozes in showers and leaves behind a sticky residue.",
       "method": "Coats shower surfaces with slimy residue, making them slippery and uncomfortable.",
       "height": "",
