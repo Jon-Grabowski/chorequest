@@ -27,6 +27,11 @@ import './App.css';
 function App() {
   const [sudsAmount, setSudsAmount] = useState(0)
   const [monsters, setMonsters] = useState([])
+  const [granLeftPathRandomMonster, setGranLeftPathRandomMonster] = useState({});
+
+function collectRandomMonster(randomMonster) {
+  setGranLeftPathRandomMonster(randomMonster);
+};
 
 function addNewMonster(newMonster){
   setMonsters((prevMonsters) => [...prevMonsters, newMonster])
@@ -82,16 +87,18 @@ useEffect(() => {
           <Grandma />
         </Route>
         <Route path="/leftpath">
-          <GranLeftPath />
+          <GranLeftPath 
+          monsters={monsters}
+          collectRandomMonster={setGranLeftPathRandomMonster}/>
         </Route>
         <Route path="/rightpath">
           <GranRightPath/>
         </Route>
         <Route path="/leftpath1">
-          <GranMonsterWin />
+          <GranMonsterWin randomMonster={randomMonster}/>
         </Route>
         <Route path="/leftpath2">
-          <GranMonsterLose />
+          <GranMonsterLose randomMonster={randomMonster}/>
         </Route>
         <Route path="/rightpath1">
           <GranToiletWin />
