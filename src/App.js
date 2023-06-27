@@ -60,7 +60,7 @@ useEffect(() => {
           <Laundromat />
         </Route>
         <Route path="/laundromatmachine">
-          <LaundMachine />
+          <LaundMachine monsters={monsters}/>
         </Route>
         <Route path="/laundromatclothes">
           <LaundClothes setSudsAmount = {setSudsAmount}/>
