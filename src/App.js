@@ -38,7 +38,7 @@ useEffect(() => {
   .then(data => setMonsters(data))
 }, [])
 
-console.log(monsters)
+
   return (
     <div className="App">
       <NavBar />
@@ -50,7 +50,7 @@ console.log(monsters)
           <AddMonster addNewMonster={addNewMonster}/>
         </Route>
         <Route path="/monsterlist">
-          <MonsterList />
+          <MonsterList monsters={monsters}/>
         </Route>
         <Route path="/adventurebegin">
           <AdventureBegin />
