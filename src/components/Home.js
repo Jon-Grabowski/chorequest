@@ -9,6 +9,7 @@ function handleClick(){
    } 
     return (
         <button onClick={handleClick}>Begin Adventure!</button>
+        
     )
 }
 
