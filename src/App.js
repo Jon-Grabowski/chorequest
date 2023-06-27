@@ -29,10 +29,6 @@ function App() {
   const [monsters, setMonsters] = useState([])
   const [granLeftPathRandomMonster, setGranLeftPathRandomMonster] = useState({});
 
-function collectRandomMonster(randomMonster) {
-  setGranLeftPathRandomMonster(randomMonster);
-};
-
 function addNewMonster(newMonster){
   setMonsters((prevMonsters) => [...prevMonsters, newMonster])
 }
@@ -42,7 +38,6 @@ useEffect(() => {
   .then(r => r.json())
   .then(data => setMonsters(data))
 }, [])
-
 
   return (
     <div className="App">
@@ -95,10 +90,10 @@ useEffect(() => {
           <GranRightPath/>
         </Route>
         <Route path="/leftpath1">
-          <GranMonsterWin randomMonster={randomMonster}/>
+          <GranMonsterWin />
         </Route>
         <Route path="/leftpath2">
-          <GranMonsterLose randomMonster={randomMonster}/>
+          <GranMonsterLose />
         </Route>
         <Route path="/rightpath1">
           <GranToiletWin />

@@ -1,6 +1,6 @@
 import { useHistory } from "react-router-dom"
 
-function GranMonsterLose({randomMonster}) {
+function GranMonsterLose() {
     const history = useHistory()
 
     function handleClick(path) {
@@ -10,7 +10,7 @@ function GranMonsterLose({randomMonster}) {
     return (
         <div className="story-page">
             <h1>The Monster Has Defeated You!</h1>
-            <img src={randomMonster.image}></img>
+            <img src="placeholder"></img>
             <p>Story Content Goes Here</p>
             <br></br>
             <button onClick={()=>handleClick("/")}>Try Again?</button>
