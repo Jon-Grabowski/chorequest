@@ -9,7 +9,9 @@ function LaundClothesLoseB(){
     return( 
         <div className="story-page">
             <h1>Clothes Not Clean!</h1>
-            <img src="placeholder"></img>
+            <img src="https://cdn.shopify.com/s/files/1/0400/5484/9696/articles/BC_Why-My-Laundry-Doesnt-Smell-Fresh-01_1200x460_crop_center.png?v=1660564398"
+                alt="smelly-laundry"
+                style={{height:"50%" , width: "50%"}}></img>
             <p>
                 Unfortunately, the detergent you chose turns out to be weaker than expected, failing to effectively 
                 clean your clothes. As you retrieve your laundry from the washing machine, you notice lingering stains 
