@@ -14,7 +14,7 @@
   display: inline-block;
   background-size: cover;
   padding: 30px;
-  /* vertical-align: bottom; */
+  
 }
 
 .input-container {
@@ -47,9 +47,9 @@
   
 
 .page-background h2{
-  color: white;
+  color: rgb(245, 213, 31);
   font-family: luminari, fantasy;
-  text-shadow: 3px 2px 4px rgb(7, 3, 3);
+  text-shadow: 5px 5px 4px rgb(0, 0, 0);
   font-size: 50px;
 }
 
@@ -102,6 +102,53 @@
   background-color: rgb(8, 67, 156);
   border-width: 5px;
 }
+
+/* monster list styling */
+
+.list-header{
+  font-family: luminari, fantasy;
+  text-shadow: 5px 5px 4px rgb(0, 0, 0);
+  font-size: 50px;
+  color: rgb(245, 213, 31)
+}
+
+.monster-list {
+  background-image: URL("https://wallpapers.com/images/hd/smoky-background-4256-x-2832-lu4xujihvbkn4aud.jpg") 
+  ;
+  background-attachment: fixed
+}
+
+.card-header{
+  font-family: luminari, fantasy;
+  font-size: 20px;
+  padding: 5px
+}
+
+.card__text{
+  font-family: luminari, fantasy;
+}
+
+.mayhem-button {
+  font-family: luminari, fantasy;
+  background-color: rgb(27, 26, 26);
+  color: rgb(194, 10, 10);
+  border-radius: 10px;
+  height:30px;
+  width: 175px;
+  margin-bottom: 5px;
+  box-shadow: 5px 3px 3px rgb(54, 29, 29);
+  letter-spacing: 1px;
+  font-size: 15px
+}
+
+.card-image{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-shadow: 5px 3px 3px rgb(54, 29, 29);
+}
+
+
+
 
 
 

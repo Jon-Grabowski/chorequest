@@ -179,6 +179,15 @@
       "method": "Coats shower surfaces with slimy residue, making them slippery and uncomfortable.",
       "height": "",
       "weight": ""
+    },
+    {
+      "name": "Adam",
+      "image": "https://media.licdn.com/dms/image/C5603AQE-FflsVX3HzA/profile-displayphoto-shrink_800_800/0/1596080670926?e=1693440000&v=beta&t=O3rDK5idpAuRagSwHMVRU7Wg54w6utiY359hKlEFImY",
+      "description": "a climbing monster",
+      "method": "throwing us down rabbit holes",
+      "height": "5'7",
+      "weight": "180",
+      "id": 21
     }
   ]
 }
