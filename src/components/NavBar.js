@@ -2,14 +2,16 @@ import {NavLink} from "react-router-dom"
 
 function NavBar() {
     return(
-        <nav>
-            <div>
-                ChoreQuest!
-            </div>
-            <div>
-                <NavLink to="/">Home</NavLink>
-                <NavLink to="/addmonster">Add New Monster</NavLink>
-                <NavLink to="/monsterlist">Monster List</NavLink>
+        <nav id="nav-bar">
+            <div id="nav-bar-container">
+                <div id="nav-header">
+                    ChoreQuest!
+                </div>
+                <div id="nav-links-container">
+                    <NavLink exact to="/" className="nav-links">Home</NavLink>
+                    <NavLink to="/addmonster" className="nav-links">Add New Monster</NavLink>
+                    <NavLink to="/monsterlist" className="nav-links">Monster List</NavLink>
+                </div>
             </div>
         </nav>
     )
