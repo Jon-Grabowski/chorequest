@@ -1,17 +1,19 @@
 import { useHistory } from "react-router-dom"
 
-function LaundClothes({selection, setSelection}) {
+
+function LaundClothes() {
+  
     const history = useHistory()
 
-
-
     function handleSelectionChange(e){
-        setSelection(e.target.value)
-        if(selection === "fluffy"){
+       
+        if(e.target.value === "fluffy"){
             history.push("/laundclothes1")
-        } else if(selection === "barely" || "sudsy"){
-            history.push("/laundclothes2")
-        } 
+        } else if(e.target.value === "barely"){
+            history.push("/laundclothesB")
+        } else if(e.target.value === "sudsy"){
+            history.push("/laundclothesA")
+        }
     }
 
 

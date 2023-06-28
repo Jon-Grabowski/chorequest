@@ -11,7 +11,8 @@ import LaundClothes from "./components/LaundClothes.js"
 import LaundMachineWin from "./components/LaundMachineWin.js";
 import LaundMachineLose from "./components/LaundMachineLose.js";
 import LaundClothesWin from "./components/LaundClothesWin.js";
-import LaundClothesLose from "./components/LaundClothesLose.js";
+import LaundClothesLoseA from "./components/LaundClothesLoseA.js";
+import LaundClothesLoseB from "./components/LaundClothesLoseB.js"
 import Grandma from "./components/Grandma.js";
 import GranLeftPath from "./components/GranLeftPath.js";
 import GranRightPath from "./components/GranRightPath.js";
@@ -25,7 +26,6 @@ import './App.css';
 
 
 function App() {
-  const [selection, setSelection] = useState('Choose Detergent!')
   const [monsters, setMonsters] = useState([])
   const [granLeftPathRandomMonster, setGranLeftPathRandomMonster] = useState({});
 
@@ -63,7 +63,7 @@ useEffect(() => {
           <LaundMachine monsters={monsters}/>
         </Route>
         <Route path="/laundromatclothes">
-          <LaundClothes selection={selection} setSelection={setSelection}/>
+          <LaundClothes />
         </Route>
         <Route path="/laundmachine1">
           <LaundMachineWin/>
@@ -74,8 +74,11 @@ useEffect(() => {
         <Route path="/laundclothes1">
           <LaundClothesWin />
         </Route>
-        <Route path="/laundclothes2">
-          <LaundClothesLose selection={selection}/>
+        <Route path="/laundclothesA">
+          <LaundClothesLoseA />
+        </Route>
+        <Route path="/laundclothesB">
+          <LaundClothesLoseB />
         </Route>
         {/* Grandma Path */}
         <Route exact path="/grandma">
