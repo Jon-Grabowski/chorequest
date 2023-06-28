@@ -48,11 +48,11 @@ function LaundMachine({monsters}) {
                         <input type="radio" id="riddle-answer-1" name="riddle" value="wrong"></input>
                         <label htmlFor="riddle-answer-1">A Broom</label>
                         <input type="radio" id="riddle-answer-2" name="riddle" value="wrong"></input>
-                        <label htmlFor="riddle-answer-1">A Laundry Basket</label>
+                        <label htmlFor="riddle-answer-2">A Laundry Basket</label>
                         <input type="radio" id="riddle-answer-3" name="riddle" value="wrong"></input>
-                        <label htmlFor="riddle-answer-1">A Vacuum Cleaner</label>
+                        <label htmlFor="riddle-answer-3">A Vacuum Cleaner</label>
                         <input type="radio" id="riddle-answer-4" name="riddle" value="correct"></input>
-                        <label htmlFor="riddle-answer-1">A Sink</label>
+                        <label htmlFor="riddle-answer-4">A Sink</label>
                     </div>
                     <div>
                         <button type="submit">Submit Answer</button>
