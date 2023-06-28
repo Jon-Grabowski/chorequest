@@ -34,3 +34,54 @@
   padding: 0.5rem;
   width: 150px;
 }
+
+.story-page{
+  background: rgb(152, 44, 136);
+  padding: 80px;
+  /* border: 5px solid red;
+  margin-left: 20px;
+  margin-right: 20px; */
+  font-size: 22px;
+  color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.story-page img {
+  /* padding: 20px; */
+  border: 5px solid rgb(255, 255, 255);
+  margin-bottom: 30px;
+  box-shadow: 10px 5px 5px rgb(0, 0, 0);
+  border-radius: 20px;
+}
+
+.story-page p {
+  border: 5px solid black;
+  border-radius: 20px;
+  padding: 40px;
+  background: rgb(3, 37, 61);
+  box-shadow: 10px 5px 5px rgb(0, 0, 0);
+  margin-left: 40px;
+  margin-right: 40px;
+  
+}
+
+.story-page h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: rgb(255, 255, 255);
+  
+}
+
+.story-page button {
+  padding: 10px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 5px 3px 3px rgb(54, 29, 29);
+  text-shadow: 2px 2px 2px rgb(7, 3, 3);
+  color: white;
+  background-color: rgb(8, 67, 156);
+  border-width: 5px;
+}
+
+
+
