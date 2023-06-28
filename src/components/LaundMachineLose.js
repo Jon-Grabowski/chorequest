@@ -10,7 +10,9 @@ function LaundMachineLose() {
     return (
         <div className="story-page">
             <h1>Incorrect Riddle Answer</h1>
-            <img src="placeholder"></img>
+            <img src="https://adimesaved.com/wp-content/uploads/2023/02/A-Dime-Saved-35.png"
+                alt="overwhelmed laundry"
+                style={{height: "50%", width: "50%"}}></img>
             <p>
                 As you confidently offer your response to the monster's riddle, the creature's expression 
                 changes, revealing a mischievous grin. It shakes its head in mock disappointment.

@@ -10,7 +10,9 @@ function LaundClothesWin() {
     return (
         <div className="story-page">
             <h1>Clothes Clean!</h1>
-            <img src="placeholder"></img>
+            <img src="https://img.freepik.com/premium-photo/happy-child-enjoying-sun-outdoor-green-field_411285-2132.jpg"
+                alt="woman-smiling-thumbsup"
+                style={{height: "40%", width: "40%"}}></img>
             <p>
                 With a thoughtful consideration, you choose the detergent that best suits your needs. 
                 Once the cycle completes, you transfer your clean, fresh-smelling laundry to the dryer, knowing 
