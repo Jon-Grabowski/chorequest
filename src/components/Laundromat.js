@@ -9,13 +9,18 @@ function Laundromat() {
     
     return (
         <div className="story-page">
-            <h1>Arrive at Laundromat</h1>
+            <h1>Laundromat</h1>
             <img src="placeholder"></img>
-            <p>You arrive at the laundromat and go to put you're laundry in when you see a strange light 
-                coming from inside the machine.
+            <p>
+                You arrive at the local laundromat. Rows of washing machines line the walls, their rhythmic 
+                hum creating a soothing ambiance. As you load your clothes into one of the machines, you notice 
+                something peculiar. A soft, ethereal glow emanates from the inside of the washing machine, casting 
+                a mesmerizing light onto the surrounding area. Curiosity piqued, you lean in closer, intrigued by 
+                the mysterious phenomenon unfolding before you.
             </p>
+            <p>What would you like to do?</p>
             <br></br>
-            <button onClick={()=>handleClick("/laundromatmachine")}>Investigate Machine</button>
+            <button onClick={()=>handleClick("/laundromatmachine")}>Investigate the Light</button>
             <button onClick={()=>handleClick("/laundromatclothes")}>Ignore and Start Washing</button>
 
         </div>

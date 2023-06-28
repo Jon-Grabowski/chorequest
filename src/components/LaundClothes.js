@@ -22,7 +22,12 @@ function LaundClothes() {
         <div className="story-page">
             <h1>Decide How Much Detergent to Use</h1>
             <img src="placeholder"></img>
-            <p>You put your laundry in the washing machine but realize that you left your detergent at home! Choose which detergent to use from the Laundromat! Choose wisely, the wrong detergent will determine your chores fate. </p>
+            <p>
+            Deciding to ignore the captivating glow for now, you focus on the task at hand. However, just as you're about to 
+            start the washing machine, you realize with a sinking feeling that you've forgotten to bring your own laundry 
+            detergent. Looking around, you spot a range of detergent options lined up neatly on a shelf.  
+            </p>
+            <p>Choose a Detergent</p>
             <select onChange={handleSelectionChange} name="select" >
                 <option value="Choose">Choose Detergent!</option>
                 <option value="fluffy">1 Scoop of Forever Fluffy Detergent</option>
