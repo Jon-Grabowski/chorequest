@@ -40,17 +40,20 @@ function handleSubmit(e){
 
 
 return (
-    <div className="new-monster-form">
+    <div className="page-background">
         <h2>New Monster</h2>
-        <form onSubmit={handleSubmit}>
-        <input onChange={handleChange} type="text" name="name" value={formData.name}placeholder="Monster Name..." />
-        <input onChange={handleChange} type="text" name="image" value={formData.image}placeholder="Image URL..." />
-        <input onChange={handleChange} type="text" name="description" value={formData.description} placeholder="Monster Description..." />
-        <input onChange={handleChange} type="text" name="method" value={formData.method} placeholder="Method of Mayhem..." />
-        <input onChange={handleChange} type="text" name="height" value={formData.height} placeholder="Monster's Height..." />
-        <input onChange={handleChange} type="text" name="weight" value={formData.weight} placeholder="Monsters Weight..." />
-        <button type="submit">Add Monster</button>
-        </form>
+        <br></br>
+        <div className="form-container">
+            <form onSubmit={handleSubmit}>
+                <input onChange={handleChange} type="text" name="name" value={formData.name}placeholder="Monster Name..." />
+                <input onChange={handleChange} type="text" name="image" value={formData.image}placeholder="Image URL..." />
+                <input onChange={handleChange} type="text" name="description" value={formData.description} placeholder="Monster Description..." />
+                <input onChange={handleChange} type="text" name="method" value={formData.method} placeholder="Method of Mayhem..." />
+                <input onChange={handleChange} type="text" name="height" value={formData.height} placeholder="Monster's Height..." />
+                <input onChange={handleChange} type="text" name="weight" value={formData.weight} placeholder="Monsters Weight..." />
+                <button type="submit">Add Monster</button>
+            </form>
+        </div>
     </div>
     )  
 }
