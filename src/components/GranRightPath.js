@@ -25,7 +25,9 @@ function GranRightPath() {
     return (
         <div className="story-page">
             <h1>You Made it to Grandma's House</h1>
-            <img src="placeholder"></img>
+            <img src="https://images.unsplash.com/photo-1515126610754-a10f0df8fd3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                alt="Grandma's House"
+                style={{height: "25%", width: "25%"}}></img>
             <p>
                 After a while, the dense foliage begins to clear, revealing a quaint cottage nestled amidst a 
                 picturesque meadow. You've stumbled upon your grandma's hidden abode. Determined to be of assistance, 

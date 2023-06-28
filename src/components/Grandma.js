@@ -10,7 +10,9 @@ function Grandma() {
     return (
         <div className="story-page">
             <h1>You Come to a Fork in the Road</h1>
-            <img src="placeholder"></img>
+            <img src="https://images.unsplash.com/photo-1609126808708-17b84d5a61c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                 alt="fork in the woods"
+                 style={{height: "40%", width: "40%"}}></img>
             <p>You begin your walk to Grandma's but the usual route you take is closed for maintenance, 
                 forcing you to take a back way you rarely venture through. Following the alternate route, 
                 you find yourself walking down a narrow, winding path enveloped by a dense forest. 
