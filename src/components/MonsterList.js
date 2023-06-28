@@ -17,8 +17,8 @@ function MonsterList({monsters}) {
     }))
     
     return (
-        <div>
-            <h1>List of Monsters Here</h1>
+        <div className="monster-list" >
+            <h1 className="list-header">Monster Zoo</h1>
             <Card.Group itemsPerRow={4}>
                 {eachMonster}
             </Card.Group>
