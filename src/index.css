@@ -147,6 +147,45 @@
   box-shadow: 5px 3px 3px rgb(54, 29, 29);
 }
 
+#nav-bar-container {
+  height: 55px;
+  display: flex;
+  justify-content: space-between
+  
+}
+
+#nav-header {
+font-family: luminari, fantasy;
+text-align: left;
+font-size: 40px;
+padding-top: 18px;
+margin-left: 10px;
+}
+
+#nav-links-container{
+  margin-top: 18px;
+  /* margin-top: 15px; */
+}
+
+.nav-links {
+  margin: 5px;
+  padding: 7px;
+  background-color: blue;
+  border-radius: 6px;
+}
+
+.active  {
+  margin: 5px;
+  padding: 7px;
+  background-color: rgb(186, 57, 21);
+  border-radius: 6px;
+}
+
+#nav-bar {
+  background: linear-gradient(to bottom right, red, yellow);
+  
+}
+
 
 
 
