@@ -36,7 +36,8 @@
 }
 
 .story-page{
-  background: rgb(152, 44, 136);
+  /* background: rgb(152, 44, 136); */
+  background: linear-gradient(rgb(147, 10, 160), rgb(52, 78, 225));
   padding: 80px;
   /* border: 5px solid red;
   margin-left: 20px;
@@ -48,14 +49,14 @@
 
 .story-page img {
   /* padding: 20px; */
-  border: 5px solid rgb(255, 255, 255);
+  border: 5px solid rgb(89, 214, 233);
   margin-bottom: 30px;
   box-shadow: 10px 5px 5px rgb(0, 0, 0);
   border-radius: 20px;
 }
 
 .story-page p {
-  border: 5px solid black;
+  border: 5px solid rgb(89, 214, 233);
   border-radius: 20px;
   padding: 40px;
   background: rgb(3, 37, 61);
@@ -69,6 +70,7 @@
   font-size: 40px;
   margin-bottom: 40px;
   color: rgb(255, 255, 255);
+  text-shadow: 3px 2px 4px rgb(7, 3, 3);
   
 }
 
