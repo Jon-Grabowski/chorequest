@@ -8,11 +8,16 @@ function LaundClothesLoseB(){
     }
     return( 
         <div className="story-page">
-            <h1>Oh no, that was the wrong detergent!</h1>
+            <h1>Clothes Not Clean!</h1>
             <img src="placeholder"></img>
-            <p>These clothes are far from being clean enough to wear.</p>
+            <p>
+                Unfortunately, the detergent you chose turns out to be weaker than expected, failing to effectively 
+                clean your clothes. As you retrieve your laundry from the washing machine, you notice lingering stains 
+                and a lack of the desired freshness. It's clear that a different detergent is needed to achieve the 
+                desired results.
+            </p>
             <br></br>
-            <button onClick={()=>handleClick("/laundromat")}>Re-wash Clothes</button>
+            <button onClick={()=>handleClick("/laundromatclothes")}>Re-wash Clothes</button>
         </div>
     )
 }
