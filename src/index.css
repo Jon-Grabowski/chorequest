@@ -61,7 +61,7 @@
   /* background-color: black; */
   /* background: linear-gradient(rgb(147, 10, 160), rgb(52, 78, 225)); */
   /* background-attachment: fixed */
-  background-image: URL(https://st3.depositphotos.com/1000423/19081/i/450/depositphotos_190817760-stock-photo-no-more-questions-and-doubts.jpg);
+  background-image: URL("./images/andreas-rocha-theswirlingfields02.jpg");
   /* background-image: URL(https://media.discordapp.net/attachments/1122893167923056753/1123977117869293568/image.png?width=1152&height=658); */
   background-position: center;
   background-size: cover;
@@ -422,8 +422,9 @@ margin-left: 10px;
   margin: 5px;
   padding: 9px;
   margin-right: 20px;
-  background-color: rgb(100, 16, 126);
+  background-color: rgb(251, 251, 251);
   border-radius: 6px;
+  color: rgb(43, 40, 40)
 }
 
 #nav-bar {
