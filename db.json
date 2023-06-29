@@ -5,189 +5,140 @@
       "name": "Dust Biter",
       "image": "https://i.imgur.com/H40Kyu8.jpg",
       "description": "A small, mischievous creature that feeds on dust and causes allergies.",
-      "method": "Swiftly strikes with its tiny fangs, leaving a tickling sensation.",
-      "height": "",
-      "weight": ""
+      "method": "Swiftly strikes with its tiny fangs, leaving a tickling sensation."
     },
     {
       "id": 2,
       "name": "Moldy Muncher",
       "image": "https://i.imgur.com/CY1uKZx.jpg",
       "description": "A slimy monster that thrives in damp places and feasts on mold.",
-      "method": "Engulfs moldy surfaces, dissolving them with its acidic saliva.",
-      "height": "",
-      "weight": ""
+      "method": "Engulfs moldy surfaces, dissolving them with its acidic saliva."
     },
     {
       "id": 3,
       "name": "Laundry Lurker",
       "image": "https://i.imgur.com/DZ224oC.jpg",
       "description": "A sneaky monster that hides in piles of dirty laundry and steals socks.",
-      "method": "Snatches socks with lightning speed, leaving behind a mismatched pair.",
-      "height": "",
-      "weight": ""
+      "method": "Snatches socks with lightning speed, leaving behind a mismatched pair."
     },
     {
       "id": 4,
       "name": "Cobweb Crawler",
       "image": "https://i.imgur.com/M094Exj.jpg",
       "description": "A spider-like creature that weaves sticky webs in corners and loves dark spaces.",
-      "method": "Entangles prey in its sticky silk, immobilizing them for consumption.",
-      "height": "",
-      "weight": ""
+      "method": "Entangles prey in its sticky silk, immobilizing them for consumption."
     },
     {
       "id": 5,
       "name": "Stain Stalker",
       "image": "https://i.imgur.com/RDgANyj.jpg",
       "description": "A relentless monster that preys on fresh stains and leaves behind smears.",
-      "method": "Absorbs stains with its porous skin, leaving behind a trail of smudges.",
-      "height": "",
-      "weight": ""
+      "method": "Absorbs stains with its porous skin, leaving behind a trail of smudges."
     },
     {
       "id": 6,
       "name": "Trash Titan",
       "image": "https://i.imgur.com/EkdOY7U.jpg",
       "description": "A towering creature formed from piles of garbage that leaves a trail of filth.",
-      "method": "Crushes and suffocates prey under layers of compacted trash.",
-      "height": "",
-      "weight": ""
+      "method": "Crushes and suffocates prey under layers of compacted trash."
     },
     {
       "id": 7,
       "name": "Sweeping Specter",
       "image": "https://i.imgur.com/YG49izX.jpg",
       "description": "A ghostly apparition that haunts brooms and causes dust clouds to form.",
-      "method": "Whirls up dust storms, disorienting and choking its unsuspecting victims.",
-      "height": "",
-      "weight": ""
+      "method": "Whirls up dust storms, disorienting and choking its unsuspecting victims."
     },
     {
       "id": 8,
       "name": "Grime Gremlin",
       "image": "https://i.imgur.com/2hN1czY.jpg",
       "description": "A mischievous imp that revels in dirt and grime, leaving smudges everywhere.",
-      "method": "Smears its slimy hands on surfaces, leaving behind a trail of grime.",
-      "height": "",
-      "weight": ""
+      "method": "Smears its slimy hands on surfaces, leaving behind a trail of grime."
     },
     {
       "id": 9,
       "name": "Window Wraith",
       "image": "https://i.imgur.com/u3cmKR7.jpg",
       "description": "A translucent phantom that smears windows and mirrors with its touch.",
-      "method": "Leaves oily residue with every touch, clouding the clarity of glass.",
-      "height": "",
-      "weight": ""
+      "method": "Leaves oily residue with every touch, clouding the clarity of glass."
     },
     {
       "id": 10,
       "name": "Dishwasher Devourer",
       "image": "https://i.imgur.com/YQPeZrq.jpg",
       "description": "A voracious creature that consumes dishes and utensils, leaving them dirty.",
-      "method": "Swallows dishes whole, regurgitating them covered in a layer of grime.",
-      "height": "",
-      "weight": ""
+      "method": "Swallows dishes whole, regurgitating them covered in a layer of grime."
     },
     {
       "id": 11,
       "name": "Mop Menace",
       "image": "https://i.imgur.com/SmpvUGp.jpg",
       "description": "A slippery monster that soaks up water, leaving wet footprints behind.",
-      "method": "Drenches its surroundings with water, causing slippery hazards.",
-      "height": "",
-      "weight": ""
+      "method": "Drenches its surroundings with water, causing slippery hazards."
     },
     {
       "id": 12,
       "name": "Gutter Ghoul",
       "image": "https://i.imgur.com/2Njhrzl.jpg",
       "description": "A creature lurking in gutters that clogs them with leaves and debris.",
-      "method": "Creates blockages by jamming gutters with twigs, leaves, and slime.",
-      "height": "",
-      "weight": ""
+      "method": "Creates blockages by jamming gutters with twigs, leaves, and slime."
     },
     {
       "id": 13,
       "name": "Perky Sparx",
       "image": "https://i.imgur.com/4yxH93m.jpg",
       "description": "A lively monster that creates electrical malfunctions and power outages.",
-      "method": "Can deliver a painful zap, ouch!",
-      "height": "",
-      "weight": ""
+      "method": "Can deliver a painful zap, ouch!"
     },
     {
       "id": 14,
       "name": "Vacuum Vortex",
       "image": "https://i.imgur.com/HLvbkdv.jpg",
       "description": "A whirlwind-like monster that devours everything in its path, scattering debris.",
-      "method": "Sucks up objects with its powerful suction force, leaving chaos in its wake.",
-      "height": "",
-      "weight": ""
+      "method": "Sucks up objects with its powerful suction force, leaving chaos in its wake."
     },
     {
       "id": 15,
       "name": "Pest Pestilence",
       "image": "https://i.imgur.com/rDDTFtD.jpg",
       "description": "A swarm of tiny creatures that infest homes and cause havoc.",
-      "method": "Overwhelms spaces with sheer numbers, devouring food and spreading disease.",
-      "height": "",
-      "weight": ""
+      "method": "Overwhelms spaces with sheer numbers, devouring food and spreading disease."
     },
     {
       "id": 16,
       "name": "Ironing Imp",
       "image": "https://i.imgur.com/UR9040U.jpg",
       "description": "A mischievous imp that creases clothes and leaves iron marks behind.",
-      "method": "Leaves behind iron marks and wrinkles by dancing across freshly ironed clothes.",
-      "height": "",
-      "weight": ""
+      "method": "Leaves behind iron marks and wrinkles by dancing across freshly ironed clothes."
     },
     {
       "id": 17,
       "name": "Sponge Siphoner",
       "image": "https://i.imgur.com/AQwCvzq.jpg",
       "description": "A sponge-like monster that absorbs water and leaves surfaces damp.",
-      "method": "Sucks up water from surfaces, leaving them soaked and prone to mildew.",
-      "height": "",
-      "weight": ""
+      "method": "Sucks up water from surfaces, leaving them soaked and prone to mildew."
     },
     {
       "id": 18,
       "name": "Lawn Litterbug",
       "image": "https://i.imgur.com/TpcqCgp.jpg",
       "description": "A creature that scatters trash and debris across lawns and gardens.",
-      "method": "Scatters garbage and debris across lawns, creating eyesores and attracting pests.",
-      "height": "",
-      "weight": ""
+      "method": "Scatters garbage and debris across lawns, creating eyesores and attracting pests."
     },
     {
       "id": 19,
       "name": "Toilet Terror",
       "image": "https://i.imgur.com/ViY6eGp.jpg",
       "description": "Emerges from toilets, causing clogs and splashing water on unsuspecting victims.",
-      "method": "Causes toilet clogs and splashes water, creating unpleasant surprises.",
-      "height": "",
-      "weight": ""
+      "method": "Causes toilet clogs and splashes water, creating unpleasant surprises."
     },
     {
       "id": 20,
       "name": "Shower Slimer",
       "image": "https://i.imgur.com/4jG7L6k.jpg",
       "description": "A slimy creature that oozes in showers and leaves behind a sticky residue.",
-      "method": "Coats shower surfaces with slimy residue, making them slippery and uncomfortable.",
-      "height": "",
-      "weight": ""
-    },
-    {
-      "name": "Adam",
-      "image": "https://media.licdn.com/dms/image/C5603AQE-FflsVX3HzA/profile-displayphoto-shrink_800_800/0/1596080670926?e=1693440000&v=beta&t=O3rDK5idpAuRagSwHMVRU7Wg54w6utiY359hKlEFImY",
-      "description": "a climbing monster",
-      "method": "throwing us down rabbit holes",
-      "height": "5'7",
-      "weight": "180",
-      "id": 21
+      "method": "Coats shower surfaces with slimy residue, making them slippery and uncomfortable."
     }
   ]
 }
