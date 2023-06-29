@@ -1,4 +1,6 @@
 import {useState} from "react"
+import MonsterCard from "./MonsterCard"
+
 
 const initialFormInfo = {
     name: "",
@@ -12,6 +14,8 @@ const initialFormInfo = {
 function AddMonster({addNewMonster}) {
 
 const [formData, setFormData] = useState(initialFormInfo)
+const [newMonster, setNewMonster] = useState({})
+const [showMonsterCard, setShowMonsterCard] = useState(true)
     
 
 function handleChange(e){
@@ -34,27 +38,33 @@ function handleSubmit(e){
     .then(newMonsterData => {
         addNewMonster(newMonsterData)
         setFormData(initialFormInfo)
+        setNewMonster(newMonsterData)
+        setShowMonsterCard(false)
     })
-
 }
+
 
 
 return (
     <div className="page-background">
         <h2>Welcome to the Monster Lab</h2>
         <br></br>
-        <div className="form-container">
-            <form onSubmit={handleSubmit}>
-                <div className="input-container">
-                    <input className="flex-item" onChange={handleChange} type="text" name="name" value={formData.name}placeholder="Monster Name..." />
-                    <input className="flex-item" onChange={handleChange} type="text" name="image" value={formData.image}placeholder="Image URL..." />
-                    <input className="flex-item" onChange={handleChange} type="text" name="description" value={formData.description} placeholder="Monster Description..." />
-                    <input className="flex-item" onChange={handleChange} type="text" name="method" value={formData.method} placeholder="Method of Mayhem..." />
-                    <input className="flex-item" onChange={handleChange} type="text" name="height" value={formData.height} placeholder="Monster's Height..." />
-                    <input className="flex-item" onChange={handleChange} type="text" name="weight" value={formData.weight} placeholder="Monsters Weight..." />
-                    <button type="submit">Submit Your Creation</button>
-                </div>
-            </form>
+        <div id="form-and-newmonster">
+            <div id="form-container">
+                <h1>Monster Registration:</h1>
+                <form onSubmit={handleSubmit}>
+                    <div className="input-container">
+                        <input className="flex-item" onChange={handleChange} type="text" name="name" value={formData.name}placeholder="Monster Name..." />
+                        <input className="flex-item" onChange={handleChange} type="text" name="image" value={formData.image}placeholder="Image URL..." />
+                        <input className="flex-item" onChange={handleChange} type="text" name="description" value={formData.description} placeholder="Monster Description..." />
+                        <input className="flex-item" onChange={handleChange} type="text" name="method" value={formData.method} placeholder="Method of Mayhem..." />
+                        <button type="submit">Submit Your Creation</button>
+                    </div>
+                </form>
+            </div>
+            <div className="new-monster">
+                {showMonsterCard ? null : (<MonsterCard name ={newMonster.name} image={newMonster.image} method={newMonster.method} description={newMonster.description} />)} 
+            </div>
         </div>
     </div>
     )  

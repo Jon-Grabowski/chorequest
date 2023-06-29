@@ -1,7 +1,7 @@
 import {useState} from "react"
 import { Card } from "semantic-ui-react"
 
-function MonsterCard({name, image, method, description, height, weight }){
+function MonsterCard({name, image, method, description}){
     const [clicked, setClicked] = useState(false)
 
 function handleClick(){
