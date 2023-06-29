@@ -115,7 +115,7 @@ useEffect(() => {
           </Route>
         </Switch>
       </div>
-      )};
+      )}
     </div>
   );
 }

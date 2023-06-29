@@ -33,26 +33,34 @@ function LaundMachine({monsters}) {
                 around you dissolves into a whirlwind of colors. As you emerge from the magical portal, you find yourself 
                 in an unfamiliar realm. Before you stands a {randomMonster.name}! The {randomMonster.name} speaks, 
                 its voice reverberating through the air.
+                <br></br>
+                <br></br>
+                "Human," the monster begins, "I offer you a deal. Solve my riddle, and I shall do your laundry, 
+                granting you the freedom to return home and relax. However, if you fail, you shall spend the rest of 
+                the day doing my laundry as punishment. Are you ready?"
             </p>
-            <p>
-            "Human," the monster begins, "I offer you a deal. Solve my riddle, and I shall do your laundry, 
-            granting you the freedom to return home and relax. However, if you fail, you shall spend the rest of 
-            the day doing my laundry as punishment. Are you ready?"
-            </p>
-            <p>"I have hands, but I don't clap. I'm often dirty, but I don't take a bath. What am I?"</p>
+            <p className="story-questions">"I have hands, but I don't clap. I'm often dirty, but I don't take a bath. What am I?"</p>
             <br></br>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} id='riddle-form'>
                 <fieldset>
                     <legend>Choose Your Answer</legend>
-                    <div>
+                    <div id="riddle-choices-container">
+                        <div class="riddle-choices">
                         <input type="radio" id="riddle-answer-1" name="riddle" value="wrong"></input>
-                        <label htmlFor="riddle-answer-1">A Broom</label>
+                        <label htmlFor="riddle-answer-1">  A Broom</label>
+                        </div>
+                        <div>
                         <input type="radio" id="riddle-answer-2" name="riddle" value="wrong"></input>
-                        <label htmlFor="riddle-answer-2">A Laundry Basket</label>
+                        <label htmlFor="riddle-answer-2">  A Laundry Basket</label>
+                        </div>
+                        <div>
                         <input type="radio" id="riddle-answer-3" name="riddle" value="wrong"></input>
-                        <label htmlFor="riddle-answer-3">A Vacuum Cleaner</label>
+                        <label htmlFor="riddle-answer-3">  A Vacuum Cleaner</label>
+                        </div>
+                        <div>
                         <input type="radio" id="riddle-answer-4" name="riddle" value="correct"></input>
-                        <label htmlFor="riddle-answer-4">A Sink</label>
+                        <label htmlFor="riddle-answer-4">  A Sink</label>
+                        </div>
                     </div>
                     <div>
                         <button type="submit">Submit Answer</button>

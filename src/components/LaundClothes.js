@@ -29,8 +29,8 @@ function LaundClothes() {
             start the washing machine, you realize with a sinking feeling that you've forgotten to bring your own laundry 
             detergent. Looking around, you spot a range of detergent options lined up neatly on a shelf.  
             </p>
-            <p>Choose a Detergent</p>
-            <select onChange={handleSelectionChange} name="select" >
+            <p className="story-questions">Choose a Detergent</p>
+            <select id="detergent-menu" onChange={handleSelectionChange} name="select" >
                 <option value="Choose">Choose Detergent!</option>
                 <option value="fluffy">1 Scoop of Forever Fluffy Detergent</option>
                 <option value="barely">1 Scoop of Barely There Detergent</option>
