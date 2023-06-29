@@ -139,6 +139,15 @@
       "image": "https://i.imgur.com/4jG7L6k.jpg",
       "description": "A slimy creature that oozes in showers and leaves behind a sticky residue.",
       "method": "Coats shower surfaces with slimy residue, making them slippery and uncomfortable."
+    },
+    {
+      "name": "Adam",
+      "image": "https://media.licdn.com/dms/image/C5603AQE-FflsVX3HzA/profile-displayphoto-shrink_800_800/0/1596080670926?e=1693440000&v=beta&t=O3rDK5idpAuRagSwHMVRU7Wg54w6utiY359hKlEFImY",
+      "description": "a climbing monster",
+      "method": "belaying us down endless rabbit holes",
+      "height": "",
+      "weight": "",
+      "id": 21
     }
   ]
 }
