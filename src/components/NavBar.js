@@ -10,7 +10,7 @@ function NavBar() {
                 <div id="nav-links-container">
                     <NavLink exact to="/" className="nav-links">Home</NavLink>
                     <NavLink to="/addmonster" className="nav-links">Add New Monster</NavLink>
-                    <NavLink to="/monsterlist" className="nav-links">Monster List</NavLink>
+                    <NavLink to="/monsterlist" className="nav-links">Monster Zoo</NavLink>
                 </div>
             </div>
         </nav>

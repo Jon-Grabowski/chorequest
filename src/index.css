@@ -340,12 +340,20 @@ visibility: hidden;
 
 .card-header{
   font-family: luminari, fantasy;
-  font-size: 20px;
-  padding: 5px
+  font-size: 25px;
+  padding: 15px
 }
 
 .card__text{
   font-family: luminari, fantasy;
+  background-color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size:18px;
+  padding:8px;
+  border-radius: 8px;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 5px 3px 3px rgb(54, 29, 29);
 }
 
 .mayhem-button {
@@ -353,16 +361,16 @@ visibility: hidden;
   background-color: rgb(27, 26, 26);
   color: rgb(194, 10, 10);
   border-radius: 10px;
-  height:30px;
-  width: 175px;
-  margin-bottom: 5px;
+  height:40px;
+  width: 200px;
   box-shadow: 5px 3px 3px rgb(54, 29, 29);
   letter-spacing: 1px;
-  font-size: 15px
+  font-size: 17px;
+  margin-bottom: 25px;
 }
 
 .card-image{
-  margin-top: 5px;
+  margin-top: 15px;
   margin-bottom: 5px;
   box-shadow: 5px 3px 3px rgb(54, 29, 29);
 }
