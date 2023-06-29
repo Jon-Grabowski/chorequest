@@ -53,14 +53,67 @@
   font-size: 50px;
 }
 
+/* 
+                HOME PAGE
+*/
+
+#home-page {
+  /* background-color: black; */
+  background: linear-gradient(rgb(147, 10, 160), rgb(52, 78, 225));
+}
+
+#home-page button {
+  margin-bottom: 30px;
+  font-family: luminari, fantasy;
+  padding: 1%;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: black;
+  color: rgb(245, 47, 47);
+  border: 2px solid rgb(202, 17, 17); 
+  
+}
+
+#home-page p {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  border: 5px solid rgb(13, 59, 66);  
+  background-image: URL(https://media.istockphoto.com/id/654922866/photo/old-yellowed-stained-paper-texture.jpg?s=612x612&w=0&k=20&c=uInwuGGMQMw2RKMillvZz5suVDgIcKD7yvrOmoPVt-k=);
+  background-position: center;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  border-radius: 15px;
+  box-shadow: 10px 5px 5px rgb(0, 0, 0);
+}
+
+#home-page h1{
+  font-family: luminari, fantasy;
+  font-size: 60px;
+  margin-left: 25%;
+  margin-right: 25%;
+  /* margin-top: 50px; */
+  /* padding: 4%; */
+  /* padding-top: 60px; */
+  background: radial-gradient(rgb(231, 255, 15), purple);
+}
+
+/* 
+                  STORY PAGES
+*/
+
 .story-page{
   /* background: rgb(152, 44, 136); */
   background: linear-gradient(rgb(147, 10, 160), rgb(52, 78, 225));
-  padding: 80px;
+  padding: 40px;
   /* border: 5px solid red;
   margin-left: 20px;
   margin-right: 20px; */
-  font-size: 22px;
+  font-size: 20px;
   color: white;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -88,8 +141,8 @@
   font-size: 40px;
   margin-bottom: 40px;
   color: rgb(255, 255, 255);
-  text-shadow: 3px 2px 4px rgb(7, 3, 3);
-  
+  text-shadow: 4px 4px 4px rgb(7, 3, 3);
+  font-family: luminari, fantasy;
 }
 
 .story-page button {
@@ -147,11 +200,16 @@
   box-shadow: 5px 3px 3px rgb(54, 29, 29);
 }
 
+/* 
+                        NAV BAR
+*/
+
 #nav-bar-container {
   height: 55px;
   display: flex;
-  justify-content: space-between
-  
+  justify-content: space-between;
+  border-bottom: 5px solid rgb(0, 0, 0);
+  padding-bottom: 55px;
 }
 
 #nav-header {
@@ -169,14 +227,18 @@ margin-left: 10px;
 
 .nav-links {
   margin: 5px;
-  padding: 7px;
-  background-color: blue;
+  padding: 9px;
+  margin-right: 20px;
+  background-color: rgb(17, 14, 205);
   border-radius: 6px;
+  color: white;
+  font-size: 20px;
 }
 
 .active  {
   margin: 5px;
-  padding: 7px;
+  padding: 9px;
+  margin-right: 20px;
   background-color: rgb(186, 57, 21);
   border-radius: 6px;
 }
