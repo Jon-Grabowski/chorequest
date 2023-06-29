@@ -18,8 +18,6 @@ function LaundClothesWin() {
                 Once the cycle completes, you transfer your clean, fresh-smelling laundry to the dryer, knowing 
                 that soon they will be warm, dry, and ready to be folded. With a sense of satisfaction, you bid 
                 farewell to the laundromat, laundry duty successfully accomplished.
-            </p>
-            <p>
                 Back at home, you relish in the simple joy of slipping into clean clothes and revel in the comforting 
                 ambiance of your familiar surroundings. The rest of the day stretches ahead, offering an opportunity 
                 for relaxation and rejuvenation!

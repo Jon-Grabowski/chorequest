@@ -25,11 +25,10 @@ function GranLeftPath({monsters, collectRandomMonster}) {
         <div className="story-page">
             <h1>You Ran Into {randomMonster.name}!</h1>
             <img src={randomMonster.image}></img>
-            <p>{randomMonster.description}</p>
             <p>
                 As you continue along the path, your heart skips a beat when you catch sight of a strange 
-                silhouette up ahead. As you draw closer, you realize it's a {randomMonster.name}, 
-                its menacing presence blocking your path forward! Caught off guard, you consider your options. 
+                silhouette up ahead. As you draw closer, you realize it's a {randomMonster.name},  
+                {" "+randomMonster.description.toLowerCase()} Caught off guard, you consider your options. 
                 You can either confront the creature head-on, attempting to fight your way through, 
                 or you can try a more diplomatic approach, reasoning with the monster in hopes of finding a peaceful resolution.
                 What will you do?

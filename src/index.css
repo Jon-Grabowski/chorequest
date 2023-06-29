@@ -60,6 +60,7 @@
 #home-page {
   /* background-color: black; */
   background: linear-gradient(rgb(147, 10, 160), rgb(52, 78, 225));
+  background-attachment: fixed
 }
 
 #home-page button {
@@ -156,13 +157,61 @@
   border-width: 5px;
 }
 
+/* 
+              RIDDLE ANSWER
+*/
+
+#riddle-form {
+  margin-left:px
+}
+
+#riddle-choices-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 25px;
+  padding-top: 15px;
+  font-family: luminari, fantasy;
+}
+
+.riddle-choices {
+  margin-left: 5px;
+}
+
+.story-questions {
+  font-family: luminari, fantasy;
+  color:khaki;
+  font-size: 30px;
+}
+
+fieldset {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+/* 
+            DROP-DOWN MENU
+*/
+
+#detergent-menu{
+  border-radius: 8px;
+  font-family: luminari, fantasy;
+  padding: 3px;
+  background: black;
+  color: red;
+  border:
+}
+
 /* monster list styling */
 
 .list-header{
   font-family: luminari, fantasy;
   text-shadow: 5px 5px 4px rgb(0, 0, 0);
-  font-size: 50px;
-  color: rgb(245, 213, 31)
+  font-size: 80px;
+  color: rgb(245, 213, 31);
+  padding-top: 50px;
+  padding-bottom: 70px;
 }
 
 .monster-list {
