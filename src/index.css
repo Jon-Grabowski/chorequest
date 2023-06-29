@@ -186,6 +186,17 @@ margin-left: 10px;
   
 }
 
+/* Loader */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+}
+
 
 
 
