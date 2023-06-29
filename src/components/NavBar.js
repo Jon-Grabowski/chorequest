@@ -4,7 +4,7 @@ function NavBar() {
     return(
         <nav id="nav-bar">
             <div id="nav-bar-container">
-                <div id="nav-header">
+                <div id="nav-header" className="animate-charcter">
                     ChoreQuest!
                 </div>
                 <div id="nav-links-container">

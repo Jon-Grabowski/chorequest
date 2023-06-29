@@ -20,7 +20,7 @@ function GranMonsterLose() {
                 Despite your valiant efforts, the monster overwhelms you with its ferocious attacks, 
                 leaving you exhausted and defeated.
             </p>
-            <p>Game Over</p>
+            <p className="story-questions">Game Over</p>
             <br></br>
             <button onClick={()=>handleClick("/")}>Try Again?</button>
 

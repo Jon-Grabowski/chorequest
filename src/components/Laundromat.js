@@ -21,7 +21,7 @@ function Laundromat() {
                 a mesmerizing light onto the surrounding area. Curiosity piqued, you lean in closer, intrigued by 
                 the mysterious phenomenon unfolding before you.
             </p>
-            <p>What would you like to do?</p>
+            <p className="story-questions">What would you like to do?</p>
             <br></br>
             <button onClick={()=>handleClick("/laundromatmachine")}>Investigate the Light</button>
             <button onClick={()=>handleClick("/laundromatclothes")}>Ignore and Start Washing</button>

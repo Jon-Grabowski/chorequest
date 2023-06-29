@@ -17,7 +17,7 @@ function LaundClothesLoseA(){
                 and filling the laundromat with an uncontrollable wave of foam. To your astonishment, the 
                 suds start to converge, taking shape and forming a towering creature. A formidable suds monster!
             </p>
-            <p>
+            <p className="story-questions">
             Caught off guard, you find yourself in a dire predicament as the suds monster launches an attack. 
             Despite your efforts to defend yourself, the sheer force and relentless nature of the suds overwhelm you. 
             Exhausted and defeated, you succumb to the suds monster's power.

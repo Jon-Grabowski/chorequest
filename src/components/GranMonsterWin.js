@@ -19,7 +19,7 @@ function GranMonsterWin() {
                 and a glimmer of understanding flickers in its eyes. With a nod of approval, the monster steps aside, 
                 allowing you to pass unharmed. Grateful for this unexpected turn of events, you continue along the path, 
                 only to realize after a while that it doesn't lead to your grandma's house as you had hoped.</p>
-                <p>Looks like you'll have to turn around and head back to the fork in the path.</p>
+                <p className="story-questions">Looks like you'll have to turn around and head back to the fork in the path.</p>
             <br></br>
             <button onClick={()=>handleClick("/grandma")}>Back to Fork</button>
 

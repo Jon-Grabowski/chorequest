@@ -18,7 +18,7 @@ function LaundMachineWin() {
             acknowledging your wit and intelligence. As pre your agreement, the monster agrees to do all of your 
             laundry so you and go home and enjoy the rest of the day!
             </p>
-            <p>
+            <p className="story-questions">
                 Congratulations, You Won!
             </p>
             <br></br>

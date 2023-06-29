@@ -19,7 +19,7 @@ function LaundMachineLose() {
                 "Ah, traveler, you've missed the mark," the monster chuckles. "But you know what? I'm actually 
                 glad you got it wrong! I didn't feel like doing my own laundry anyway! Haha!"
             </p>
-            <p>
+            <p className="story-questions">
                 You Lose, the rest of your Sunday will be spent doing monster laundry!
             </p>
             <br></br>

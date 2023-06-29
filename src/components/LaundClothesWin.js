@@ -22,7 +22,7 @@ function LaundClothesWin() {
                 ambiance of your familiar surroundings. The rest of the day stretches ahead, offering an opportunity 
                 for relaxation and rejuvenation!
             </p>
-            <p>
+            <p className="story-questions">
                 Congratulations, you Won!
             </p>
             <br></br>
